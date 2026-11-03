@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="36" viewBox="0 0 520 36" role="img" aria-label="soft sparkles">
+  <style>
+    .s { fill: #A8B4F0; opacity: 0.35; }
+    .a { animation: twinkle 2.8s ease-in-out infinite; }
+    .b { animation: twinkle 2.8s ease-in-out 0.7s infinite; }
+    .c { animation: twinkle 2.8s ease-in-out 1.4s infinite; }
+    @keyframes twinkle { 0%,100% { opacity: 0.2; transform: scale(0.85); } 50% { opacity: 0.95; transform: scale(1.15); } }
+  </style>
+  <g transform-origin="40 18">
+    <circle class="s a" cx="40" cy="18" r="3"/>
+    <circle class="s b" cx="120" cy="12" r="2"/>
+    <circle class="s c" cx="200" cy="22" r="2.5"/>
+    <circle class="s a" cx="280" cy="14" r="2"/>
+    <circle class="s b" cx="360" cy="20" r="3"/>
+    <circle class="s c" cx="440" cy="12" r="2"/>
+    <circle class="s a" cx="500" cy="18" r="2.5"/>
+  </g>
+</svg>
